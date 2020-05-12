@@ -1,0 +1,41 @@
+@import 'Variables';
+
+//Views
+@import 'views/Sidebar';
+
+//Pages
+@import 'pages/Repositories';
+
+//Particles
+@import 'particles/PinnedCard';
+
+body, html {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    font-family: $source;
+}
+
+.github-clone {
+    height: 100vh;
+
+    &-container {
+        height: 100%;
+    }
+
+    &-row {
+        height: 100%;
+    }
+
+    &-left {
+        position: relative;
+    }
+
+    &-logo {
+        height: 16px;
+        width: auto;
+    }
+}
+
+.badge {
+    border-radius: 64px;
+}

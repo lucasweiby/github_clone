@@ -1,0 +1,35 @@
+.pinned-card {
+    .card {
+        border: none;
+        box-shadow: 0 0 10px rgba($color: $purple, $alpha: 0.1);
+        margin-bottom: 16px;
+
+        &-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: $mediumBlue;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 14px;
+            color: #666;
+        }
+
+        &-meta {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+
+            &-item {
+                font-size: 14px;
+                color: rgba($color: $lighterBlue, $alpha: 0.7);
+                
+                &:not(:last-child) {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.repositories {
+    width: 100%;
+    min-height: 100vh;
+    color: $mediumBlue;
+    padding: 48px 32px;
+    overflow-y: auto;
+
+    &-title {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 700;
+        color: $pink;
+        margin-bottom: 32px;
+    }
+
+    &-subtitle {
+        font-weight: 600;
+        letter-spacing: 0;
+        margin-bottom: 16px;
+    }
+
+    .col-md-4 {
+        position: relative;
+    }
+
+    &-people {
+        margin: 0;
+        padding: 16px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        box-shadow: 0 0 10px rgba($color: $purple, $alpha: 0.1);
+        border-radius: 12px;
+
+        &-item {
+            width: 19%;
+            height: auto;
+            margin-right: 2px;
+            margin-bottom: 2px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
