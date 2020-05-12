@@ -80,8 +80,8 @@ class Sidebar extends Component {
 
                 <Row>
                     <Col lg md sm xs={12} className="sidebar-menu">
-                        <Nav defaultActiveKey="/" className="flex-column sidebar-nav">
-                            <Nav.Link href="/">
+                        <Nav defaultActiveKey="/camunda" className="flex-column sidebar-nav">
+                            <Nav.Link href="/camunda">
                                 <i className="fas fa-book"></i> Repositórios <Badge variant="light">{cloneData2.public_repos}</Badge>
                             </Nav.Link>
                             <Nav.Link eventKey="link-1">
