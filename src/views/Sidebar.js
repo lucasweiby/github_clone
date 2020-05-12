@@ -70,7 +70,7 @@ class Sidebar extends Component {
                                 </a>
                             </li>
                             <li className="sidebar-meta-item">
-                                <a href={cloneData2.email} className="sidebar-meta-link">
+                                <a href={`mailto:${cloneData2.email}`} className="sidebar-meta-link">
                                     <i className="fas fa-envelope"></i> {cloneData2.email}
                                 </a>
                             </li>
