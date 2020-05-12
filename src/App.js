@@ -17,10 +17,10 @@ class App extends Component {
           <Container fluid className="github-clone-container">
             <Row className="github-clone-row">
               <Col md={4} className="sidebar px-5">
-                <Route path="/:username" component={Sidebar}></Route>
+                <Route exact={true} path="/:username" component={Sidebar}></Route>
               </Col>
               <Col md={8} className="offset-md-4 px-0">
-                <Route path="/:username" component={Repositories}></Route>
+                <Route exact={true} path="/:username" component={Repositories}></Route>
               </Col>
             </Row>
           </Container>
